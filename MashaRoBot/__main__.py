@@ -74,27 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Yo,my name is ᎩᏬᎥ
-I am a group management bot which can help you to manage group easy You can see my cmd in help button[.](https://telegra.ph/file/0119b098344da8d0924bc.jpg)
+Hello I am Yato, the 5 cent god
+I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/0119b098344da8d0924bc.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❤️ᎩᏬᎥ❤️", url="t.me/Yuigahama_yui_robot?startgroup=true"),
+            text="𝕐𝕒𝕥𝕠", url="t.me/Calamity_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="✨UPDATES✨", url="https://t.me/logs_yui_bot"),
+            text="UPDATES CHANNEL", url="https://t.me/Yato_Updates"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/chat_support_yui_robot"),
+            text="👥SUPPORT👥", url="https://t.me/Yato_Support"),
     ],
     [  
-        InlineKeyboardButton(text="Anime chat", url="https://t.me/LEGENDxSENPAI"),
+        InlineKeyboardButton(text="Anime chat", url="https://t.me/The_phantom_troupe"),
     ], 
     
 ]
@@ -102,14 +101,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-*ᎩᏬᎥ comes with many special features in it*
-*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᎩᏬᎥ*
+*YATO has many special features in it*
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Yato*
 🔥 *All commands can either be used with* `/` *or* `!`.
-🔥 *If you facing any issue or find any bugs in any command then you can report it in @chat_support_yui_robot* [.](https://telegra.ph/file/ba286ee2cee96f33a197f.jpg)
+🔥 *If you facing any issue or find any bugs in any command then you can report it in @Yato_Support* [.](https://telegra.ph/file/f7673dbfdf2018a1aa30e.jpg)
 """
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """I want ppl to donate but I know no one will and also I don't have paypal"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -354,16 +353,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm * ᎩᏬᎥ *, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm * Yato *, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
+                 ❍ I can greet users with customizable welcome messages and even set group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Emcee's licensed under the GNU General Public License v3.0_
+                 \n_Yato licensed under the GNU General Public License v3.0_
                  Here is the [Bot-protocol](https://t.me/BotProtocol).
-                 If you have any question about ᎩᏬᎥ, let us know at @chat_support_yui_robot.""",
+                 If you have any question about Yato, let us know at @Yato_support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -389,7 +388,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *ᎩᏬᎥ*
+            text=""" Hi.. I'm *Yato*
                  \nHere is the [Bot-protocol](https://t.me/BotProtocol) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
