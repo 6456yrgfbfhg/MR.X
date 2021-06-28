@@ -74,26 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello I am Yato, the 5 cent god
-I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/f7673dbfdf2018a1aa30e.jpg)
+Hello I am Nobara, Be happy, boys. I'm the woman in your group.
+I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/3d80f231383412830f80a.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝕐𝕒𝕥𝕠", url="t.me/Calamity_robot?startgroup=true"),
+            text= "Nobara", url="t.me/NobarasanRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="UPDATES CHANNEL", url="https://t.me/Yato_Updates"),
+            text="UPDATES CHANNEL", url="https://t.me/nobara_kugisaki_updates"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/Yato_Support"),
+            text="👥SUPPORT👥", url="https://t.me/supprt_sora"),
     ],
     [  
-        InlineKeyboardButton(text="Anime chat", url="https://t.me/The_phantom_troupe"),
+        InlineKeyboardButton(text="Our Troupe", url="https://t.me/The_phantom_troupe"),
     ], 
     
 ]
@@ -101,14 +101,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-*YATO has many special features in it*
-*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Yato*
+*Nobara has many special features in it*
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Nobara*
 🔥 *All commands can either be used with* `/` *or* `!`.
-🔥 *If you facing any issue or find any bugs in any command then you can report it in @Yato_Support* [.](https://telegra.ph/file/f7673dbfdf2018a1aa30e.jpg)
+🔥 *If you facing any issue or find any bugs in any command then you can report it in @supprt_sora* [.](https://telegra.ph/file/4e7b49c21f41f0890c65d.jpg)
 """
 
 
-DONATE_STRING = """I want ppl to donate but I know no one will and also I don't have paypal"""
+DONATE_STRING = """I Dont need your Money Coz I am already RICH"""
 
 IMPORTED = {}
 MIGRATEABLE = []
