@@ -81,10 +81,10 @@ I am a group management bot which can help you to manage group easy You can see 
 buttons = [
     [
         InlineKeyboardButton(
-            text= "Nobara", url="t.me/NobarasanRobot?startgroup=true"),
+            text= "Add Nobara", url="t.me/NobarasanRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -684,7 +684,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Me the sage of the six paths is back to serve you.✨")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Nobara Kugisaki At Your Service")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
