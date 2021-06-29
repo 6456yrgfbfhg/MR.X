@@ -27,10 +27,10 @@ GIFS = [
 
 SLAP_MASHA_TEMPLATES = (
     "Slap me one more time and I'll mute you.",
-    "Stop slapping me. REEEEEEEEEEEEEE.",
+    "Stop slapping me. .",
     [
         "I am muting you for a minute.",  # normal reply
-        "Stop slapping me just because I can't mute you. REEEEEEEEEE.",  # reply to admin
+        "Stop slapping me or i will Demote you.",  # reply to admin
         "tmute",  # command
         "Shut up!",
         "Silence!",
@@ -193,7 +193,7 @@ PAT_STICKERS = (
 )
 
 PING_STRING = (
-    "PONG!!",
+    "Here's My Ping",
     "I am here!",
 )
 
