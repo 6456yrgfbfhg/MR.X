@@ -11,8 +11,8 @@ Reply to a message with /karma to check a user's karma
 Send /karma without replying to any message to chek karma list of top 10 users"""
 
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|thank you|👍)$"
-regex_downvote = r"^(\-|\-\-|\-1|👎)$"
+regex_upvote = r"^((?i)\+|\+\+|\+1|thank you|👍|Pro)$"
+regex_downvote = r"^(\-|\-\-|\-1|👎|Noob)$"
 
 
 @pbot.on_message(
